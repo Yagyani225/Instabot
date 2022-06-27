@@ -2,7 +2,7 @@
 from instapy import InstaPy
 from instapy import smart_run
 # login credentials
-insta_username = 'tyra7'
+insta_username = '*******'
 insta_password = '*******'
 
 # get an InstaPy session!
@@ -18,6 +18,6 @@ with smart_run(session):
                                     max_followers=40000,#40000000000
                                     min_followers=10,
                                     min_following=10)
-    session.follow_user_followers(['smritiiraniofficial'], amount=100,
+    session.follow_user_followers(['***********'], amount=100,
                                   randomize=True)
     session.end()
